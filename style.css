@@ -9,8 +9,20 @@
   width: max-content;
 }
 
+ol.wbbox {
+  padding-left: 20px;
+}
+
+ul.wbbox {
+  padding-left: 20px;
+}
+
 .link {
   color: cadetblue;
+}
+
+ol {
+  padding-left: px;
 }
 
 em {
