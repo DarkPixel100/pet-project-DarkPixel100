@@ -37,7 +37,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "atomKeymap.promptV3Features": true,
   "editor.formatOnPaste": true,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "boundary",
