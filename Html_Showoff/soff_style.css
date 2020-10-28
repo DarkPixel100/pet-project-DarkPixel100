@@ -1,3 +1,10 @@
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-dark.png);
+  padding: 0;
+  margin: 4;
+  min-width: 1904px;
+}
+
 #contentBlock1 {
   display: flex;
   justify-content: space-between;
@@ -22,7 +29,7 @@ ul.wbbox {
   padding-left: 20px;
 }
 
-.link {
+.url {
   color: cadetblue;
 }
 
