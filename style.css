@@ -4,6 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
+  line-height: 1.5;
 }
 
 #background {
@@ -21,11 +22,12 @@ body {
   display: flex;
   flex-direction: column;
   width: max-content;
-  max-width: 60%;
+  max-width: 80%;
 }
 
 header {
-  margin: 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -37,58 +39,84 @@ strong {
 }
 
 h1 {
-  align-self: center;
-  width: fit-content;
-  background-color: rgba(255, 245, 238, 0.9);
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  padding: 5px;
-  margin: 0;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 h3 {
+  font-size: 1.17em;
+  font-weight: bolder;
   margin-top: 0;
 }
 
+h4 {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+h5 {
+  font-size: .83em;
+  font-weight: bolder;
+}
+
+h6 {
+  font-size: .67em;
+  font-weight: bolder;
+}
+
+#content h1 {
+  align-self: center;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 1%;
+  margin: 0;
+}
+
 #refList {
-  background-color: rgba(255, 245, 238, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 7px;
   margin-top: 0;
-  padding-top: 11px;
-  padding-bottom: 10px;
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 0.1vw;
+  padding-right: 0.1vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #refList li {
   font-weight: 700;
-  display: inline;
+  align-self: center;
 }
 
 #refList li a {
+  display: block;
   color: black;
-  margin: 0;
   border-radius: 7px;
   text-decoration: none;
-  padding: 10px;
+  padding: 0.4vw;
   transition: 0.4s;
 }
 
 #refList li a:hover {
   transition: 0.4s;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   background-color: black;
-  color: rgba(255, 245, 238, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 div.torso {
-  background-color: rgba(255, 245, 238, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 1%;
   border-radius: 7px;
   flex-direction: column;
   text-align: justify;
@@ -97,9 +125,12 @@ div.torso {
   font-weight: 600;
 }
 
+div.torso a {
+  color: black;
+}
 footer {
-  padding-top: 50px;
-  color: rgba(255, 245, 238, 0.9);
+  padding-top: 10%;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 600;
   text-align: center;
 }
