@@ -16,32 +16,50 @@ body {
 }
 
 #content {
-  position: fixed;
+  position: static;
   z-index: 1;
-  justify-content: center;
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  max-width: 60%;
 }
 
 header {
-  background-color: seashell;
-  padding-bottom: 1px;
-  border-radius: 7px;
+  margin: 0;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
   width: fit-content;
 }
 
-h1 {
-  padding: 2px;
+strong {
+  font-weight: 800;
 }
 
-a {
-  color: black;
+h1 {
+  align-self: center;
+  width: fit-content;
+  background-color: rgba(255, 245, 238, 0.9);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 5px;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 #refList {
-  padding-left: 0;
+  background-color: rgba(255, 245, 238, 0.9);
+  border-radius: 7px;
+  margin-top: 0;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
   display: flex;
-  text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #refList li {
@@ -50,23 +68,42 @@ a {
 }
 
 #refList li a {
+  color: black;
+  margin: 0;
+  border-radius: 7px;
   text-decoration: none;
   padding: 10px;
   transition: 0.4s;
 }
 
 #refList li a:hover {
+  transition: 0.4s;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: black;
-  color: seashell;
+  color: rgba(255, 245, 238, 0.9);
 }
 
 div.torso {
-  background-color: seashell;
+  background-color: rgba(255, 245, 238, 0.9);
+  display: flex;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 7px;
+  flex-direction: column;
   text-align: justify;
   text-justify: distribute;
   word-break: normal;
   font-weight: 600;
+}
+
+footer {
+  padding-top: 50px;
+  color: rgba(255, 245, 238, 0.9);
+  font-weight: 600;
+  text-align: center;
+}
+
+footer a {
+  color: inherit;
 }

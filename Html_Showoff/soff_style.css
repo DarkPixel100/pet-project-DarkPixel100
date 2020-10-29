@@ -40,3 +40,7 @@ em {
 strong {
   color: darkcyan;
 }
+
+dd {
+  font-style: italic;
+}
