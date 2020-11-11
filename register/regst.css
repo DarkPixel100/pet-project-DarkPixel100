@@ -1,0 +1,37 @@
+@media screen and (max-width:1280px) {
+  body {
+    background: url("../images/Reg_Background/Reg_background_1280.jpg") no-repeat center fixed;
+  }
+}
+
+@media screen and (min-width:1281px) and (max-width:1920px) {
+  body {
+    background: url("../images/Reg_Background/Reg_background_1920.jpg") no-repeat center fixed;
+  }
+}
+
+@media screen and (min-width:1921px) {
+  body {
+    background: url("../images/Reg_Background/Reg_background_max.jpg") no-repeat center fixed;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: fit-content;
+  border-radius: 7px;
+  padding: 0.4vw;
+}
+
+input, select {
+  padding: 5px;
+  border: 0;
+  margin-bottom: 1.3%;
+}
