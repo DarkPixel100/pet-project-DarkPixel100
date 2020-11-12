@@ -124,6 +124,25 @@ div.torso a {
   color: black;
 }
 
+table {
+  width: fit-content;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-weight: bolder;
+}
+
+td {
+  padding: 0.2vw;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 footer {
   padding-top: 10%;
   color: rgba(255, 255, 255, 0.9);
