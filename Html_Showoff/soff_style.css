@@ -1,8 +1,15 @@
+* {
+  --background: #E7EDF2;
+  --tag: #3E4FE5;
+  --url: #68EEDA;
+}
+
 body {
   background-image: url("../images/sobg.webp");
   padding: 0;
   margin: 4;
   min-width: 1904px;
+  background-color: black;
 }
 
 #contentBlock1 {
@@ -17,7 +24,7 @@ body {
   border-top-left-radius: 7px;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: white;
+  background-color: var(--background);
   width: max-content;
 }
 
@@ -30,7 +37,7 @@ ul.wbbox {
 }
 
 .url {
-  color: cadetblue;
+  color: var(--url);
 }
 
 em {
@@ -43,4 +50,8 @@ strong {
 
 dd {
   font-style: italic;
+}
+
+.tag {
+  color: var(--tag);
 }

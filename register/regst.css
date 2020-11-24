@@ -41,7 +41,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
+
+  a {
+    color: white;
+    font-weight: bold;
+  }
 
 form {
   background-color: rgba(255, 255, 255, 0.9);
@@ -66,7 +72,8 @@ label {
 }
 
 .buttons button {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
   font-size: 3rem;
   width: 80%;
   height: 5rem;

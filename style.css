@@ -1,8 +1,14 @@
+@font-face {
+  font-family: Dovahkiin;
+  src: url('fonts/Dovahkiin.otf');
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   line-height: 1.5;
+  background-color: black;
 }
 
 #background video {
@@ -108,7 +114,7 @@ h6 {
   color: rgba(255, 255, 255, 0.9);
 }
 
-div.torso {
+main {
   background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   padding: 1%;
@@ -120,8 +126,12 @@ div.torso {
   font-weight: 600;
 }
 
-div.torso a {
+main a {
   color: black;
+}
+
+main p {
+  text-justify: distribute;
 }
 
 table {
