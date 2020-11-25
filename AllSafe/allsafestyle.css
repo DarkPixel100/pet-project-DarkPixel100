@@ -1,7 +1,9 @@
 * {
-  --main: #FFFFFF;
-  --sec: #22507E;
+  --main: #22507E;
+  --sec: #1A4B7B;
+  --bg: #FFFFFF;
   --ter: #AEB9C3;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -11,41 +13,97 @@ html, body {
 }
 
 header {
-  position: fixed;
-  background-color: var(--sec);
+  background-color: var(--main);
   width: 100%;
-  height: min-content;
-  display: flex;
-  justify-content: space-between;
+}
+
+#topLogo img {
+  width: 223px;
 }
 
 #refList {
   height: 100%;
-  width: 100%;
-  height: max-content;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-weight: 500;
-  align-self: center;
   display: flex;
-  justify-content: space-evenly;
-  margin: 1%;
+  justify-content: space-around;
 }
 
-#refList li {
+#refList div {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+#refList div:hover {
+  transition: background-color 0.2s;
+  background-color: var(--sec);
+}
+
+#refList div a {
   align-self: center;
+  text-decoration: none;
+  text-align: center;
+  color: var(--bg);
+  transition: background-color 0.2s;
 }
 
-#refList li a {
-  border-radius: 3px;
-  padding: 1rem;
-  color: var(--main);
-  text-decoration: none;
-  transition: .1s;
+@media screen and (min-width:811px) {
+  header {
+    height: 8%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+  }
+  #topLogo {
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+  }
+  header a img {
+    height: 100%;
+  }
+  header nav {
+    width: 100%;
+  }
 }
 
-#refList li a:hover {
-  transition: .1s;
-  background-color: var(--main);
-  color: var(--sec);
-  text-decoration: none;
+@media screen and (max-width: 810px) {
+  header {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #topLogo {
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+  }
+  header a img {
+    height: 100%;
+  }
+  header nav {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  header {
+    height: max-content;
+  }
+  #topLogo {
+    height: 10vh;
+    max-width: 100%;
+  }
+  #refList {
+    display: inline-block;
+    text-align: center;
+  }
+  #refList div {
+    display: inline-flex;
+    height: 8vh;
+  }
 }
