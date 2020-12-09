@@ -68,6 +68,11 @@ main p {
   text-indent: 2rem;
 }
 
+span {
+  color: red;
+  font-family: monospace;
+}
+
 footer {
   color: var(--ter);
   display: flex;
