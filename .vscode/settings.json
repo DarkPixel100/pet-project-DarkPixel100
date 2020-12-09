@@ -7,7 +7,7 @@
     120
   ],
   "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
+  // "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "editor.fontFamily": "'Fira Code', 'Source Code Pro', 'Consolas', 'Droid Sans Mono', 'monospace'",
   "editor.fontLigatures": true,
