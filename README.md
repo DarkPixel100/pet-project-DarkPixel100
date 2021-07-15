@@ -11,4 +11,4 @@ Não esqueça de configurar sua identidade no git com o usuário que usas no Git
 
 ## Rodando
 
-Use a extensão `live-server` do Visual Studio Code, através do comando (`CTRL + SHIFT + P`) _Open with Live Server_.
+Você pode ter acesso total da página por aqui: [Allsafe](https://dbo-2021.github.io/toy-project-DarkPixel100/)
