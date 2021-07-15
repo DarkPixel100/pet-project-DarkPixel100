@@ -11,4 +11,4 @@ Não esqueça de configurar sua identidade no git com o usuário que usas no Git
 
 ## Rodando
 
-Você pode ter acesso total da página por aqui: [Allsafe](https://dbo-2021.github.io/toy-project-DarkPixel100/)
+Você pode ter acesso total da página por aqui: [Página](https://dbo-2020-2-apnp.github.io/pet-project-DarkPixel100/)
